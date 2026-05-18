@@ -90,7 +90,7 @@ export const translations = {
       before: "Before",
       after: "After",
       disclaimer: "Results may vary from person to person. A consultation is required before treatment.",
-      cta: "Book a Consultation for Your Result",
+      cta: "Book a Consultation",
       ctaSecondary: "Ask Which Treatment Fits Me",
     },
     faq: {
