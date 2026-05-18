@@ -16,7 +16,7 @@ export const translations = {
     hero: {
       eyebrow: "DHA-Licensed Aesthetic Doctor in Dubai",
       title: "Natural Aesthetic Results, Designed Around Your Face",
-      subtitle: "Enhance your beauty — without changing who you are.",
+      subtitle: "Enhance your beauty —\nwithout changing who you are.",
       body:
         "Botox, fillers, PRP, skin rejuvenation and non-surgical aesthetic treatments by Dr. Zahra Salehi, focused on subtle, balanced and natural-looking results.",
       ctaPrimary: "Book Your Consultation",

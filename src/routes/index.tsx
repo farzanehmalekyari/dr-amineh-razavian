@@ -86,7 +86,7 @@ function Hero() {
               <span className="block italic text-white/85">{t.hero.title.split(",").slice(1).join(",").trim()}</span>
             </h1>
             <div className="h-px w-20 bg-primary" />
-            <p className="text-lg text-white/80 max-w-xl">{t.hero.subtitle}</p>
+            <p className="text-lg text-white/80 max-w-xl whitespace-pre-line">{t.hero.subtitle}</p>
             <p className="text-sm text-white/60 max-w-xl leading-relaxed">{t.hero.body}</p>
 
             <div className="flex flex-col sm:flex-row gap-3 pt-2 justify-start">
