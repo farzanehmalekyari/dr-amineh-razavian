@@ -6,6 +6,7 @@ import { BookingForm } from "@/components/BookingForm";
 import { WHATSAPP_URL, INSTAGRAM_URL } from "@/lib/contact";
 import { ArrowRight, Calendar, CheckCircle2, Leaf, MessageCircle, Shield, Sparkles, Instagram, Bookmark, MoreHorizontal, ChevronDown } from "lucide-react";
 import doctorHero from "@/assets/doctor-hero.jpg";
+import doctorHeroMobile from "@/assets/doctor-hero-mobile.jpg";
 import serviceFace from "@/assets/service-face.jpg";
 import serviceSkin from "@/assets/service-skin.jpg";
 import serviceBody from "@/assets/service-body.jpg";
@@ -61,24 +62,34 @@ function Index() {
 function Hero() {
   const { t } = useLang();
   return (
-    <section className="relative min-h-[90vh] bg-cover bg-center bg-no-repeat flex flex-col" style={{ backgroundImage: `url(${doctorHero})` }}>
-      {/* Dark gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
+    <section className="relative min-h-[90vh] flex flex-col">
+      {/* Mobile background image (hidden on lg+) */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat lg:hidden"
+        style={{ backgroundImage: `url(${doctorHeroMobile})` }}
+      />
+      {/* Desktop background image (hidden below lg) */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden lg:block"
+        style={{ backgroundImage: `url(${doctorHero})` }}
+      />
+      {/* Dark gradient overlay — stronger on left for mobile left-aligned content */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/20" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-1 items-center">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
-          <div className="max-w-2xl mx-auto text-center lg:mx-0 lg:text-left space-y-6">
+          <div className="max-w-2xl text-left lg:mx-0 lg:text-left space-y-6">
             <p className="eyebrow text-white/70">{t.hero.eyebrow}</p>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.05] text-balance text-white">
               {t.hero.title.split(",")[0]},
               <span className="block italic text-white/85">{t.hero.title.split(",").slice(1).join(",").trim()}</span>
             </h1>
-            <div className="h-px w-20 bg-primary mx-auto lg:mx-0" />
-            <p className="text-lg text-white/80 max-w-xl mx-auto lg:mx-0">{t.hero.subtitle}</p>
-            <p className="text-sm text-white/60 max-w-xl mx-auto lg:mx-0 leading-relaxed">{t.hero.body}</p>
+            <div className="h-px w-20 bg-primary" />
+            <p className="text-lg text-white/80 max-w-xl">{t.hero.subtitle}</p>
+            <p className="text-sm text-white/60 max-w-xl leading-relaxed">{t.hero.body}</p>
 
-            <div className="flex flex-col sm:flex-row gap-3 pt-2 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-3 pt-2 justify-start">
               <Link to="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm uppercase tracking-[0.18em] text-primary-foreground shadow-soft hover:bg-rose-deep transition">
                 <Calendar className="h-4 w-4" />{t.hero.ctaPrimary}
               </Link>
@@ -87,7 +98,7 @@ function Hero() {
               </a>
             </div>
 
-            <div className="mt-8 grid grid-cols-3 gap-3 max-w-xl mx-auto lg:mx-0">
+            <div className="mt-8 grid grid-cols-3 gap-3 max-w-xl">
               {t.hero.strip.map((s, i) => (
                 <div key={i} className="rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-3 text-center">
                   <div className="mx-auto mb-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-primary/30 text-white">
