@@ -163,8 +163,8 @@ function Services() {
                     <li key={it} className="flex items-center gap-2"><CheckCircle2 className="h-3.5 w-3.5 text-primary shrink-0" />{it}</li>
                   ))}
                 </ul>
-                <div className="mt-6 space-y-2">
-                  <Link to="/services" className="flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground hover:bg-rose-deep transition">
+                <div className="mt-auto space-y-2">
+                  <Link to="/services" className="mt-6 flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground hover:bg-rose-deep transition">
                     {c.cta} <ArrowRight className="h-4 w-4" />
                   </Link>
                   <div className="grid grid-cols-2 gap-2">
@@ -267,6 +267,7 @@ function Faq() {
 function Insta() {
   const { t } = useLang();
   const imgs = [insta1, insta2, insta3];
+  const links = ['https://www.instagram.com/dr.zahrasalehii/reel/DYU2GtTto_K/', 'https://www.instagram.com/dr.zahrasalehii/reel/DYF7MUptOUU/', 'https://www.instagram.com/dr.zahrasalehii/reel/DYANa9WtFWh/']
   return (
     <section className="py-20 lg:py-28 bg-beige/40">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -284,17 +285,19 @@ function Insta() {
                 </div>
                 <MoreHorizontal className="h-4 w-4 text-muted-foreground" />
               </header>
-              <img src={imgs[i]} alt={c.cat} className="aspect-square w-full object-cover" loading="lazy" />
+              <Link to={links[i]} target="_blank" rel="noopener noreferrer">
+                <img src={imgs[i]} alt={c.cat} className="aspect-square w-full object-cover" loading="lazy" />
+              </Link>
               <div className="p-4">
                 <div className="flex items-start justify-between gap-3">
                   <p className="eyebrow text-[10px]">{c.cat}</p>
-                  <Bookmark className="h-4 w-4 text-muted-foreground" />
+                  {/* <Bookmark className="h-4 w-4 text-muted-foreground" /> */}
                 </div>
                 <p className="mt-2 text-sm text-foreground/85">{c.caption}</p>
               </div>
               <div className="border-t border-border p-3 flex items-center justify-between bg-muted/30">
                 <span className="text-xs text-muted-foreground inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5 text-primary" /> Interested in this result?</span>
-                <Link to="/contact" className="text-xs font-medium text-primary inline-flex items-center gap-1">Book <ArrowRight className="h-3 w-3" /></Link>
+                {/* <Link to="/contact" className="text-xs font-medium text-primary inline-flex items-center gap-1">Book <ArrowRight className="h-3 w-3" /></Link> */}
               </div>
             </article>
           ))}
