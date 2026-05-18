@@ -78,39 +78,46 @@ export function Header() {
 
       {open && (
         <div className="fixed inset-0 z-50 lg:hidden">
-          <div className="absolute inset-0 bg-foreground/30" onClick={() => setOpen(false)} />
-          <div className="absolute inset-y-0 end-0 w-[88%] max-w-sm bg-background shadow-elegant flex flex-col">
-            <div className="flex items-center justify-between border-b border-border px-5 h-16">
+          {/* Backdrop */}
+          <div className="absolute inset-0 bg-black/45" onClick={() => setOpen(false)} />
+          {/* Full-screen menu panel */}
+          <div className="absolute inset-0 bg-[#FCF9F7] flex flex-col" style={{ backgroundColor: '#FCF9F7' }}>
+            {/* Header row */}
+            <div className="flex items-center justify-between border-b border-border/60 px-5 h-16 shrink-0">
               <Logo />
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full hover:bg-muted"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full hover:bg-black/5"
                 aria-label="Close menu"
               >
                 <X className="h-5 w-5" />
               </button>
             </div>
-            <nav className="flex flex-col gap-1 px-3 py-5">
+
+            {/* Nav links — vertically centered in remaining space */}
+            <nav className="flex flex-1 flex-col items-center justify-center gap-2 px-6">
               {links.map((l) => (
                 <Link
                   key={l.to}
                   to={l.to}
                   onClick={() => setOpen(false)}
-                  className="rounded-xl px-3 py-3 text-base text-foreground hover:bg-muted"
-                  activeProps={{ className: "bg-muted text-primary" }}
+                  className="w-full text-center py-4 text-xl font-serif text-foreground/80 hover:text-primary border-b border-border/40 last:border-0 transition-colors"
+                  activeProps={{ className: "text-primary" }}
                   activeOptions={{ exact: l.to === "/" }}
                 >
                   {l.label}
                 </Link>
               ))}
             </nav>
-            <div className="mt-auto px-5 pb-6 pt-3 border-t border-border space-y-4">
+
+            {/* Footer actions */}
+            <div className="shrink-0 px-6 pb-10 pt-4 space-y-3">
               <LanguageSwitcher className="w-full justify-center" />
               <Link
                 to="/contact"
                 onClick={() => setOpen(false)}
-                className="flex items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-medium uppercase tracking-[0.18em] text-primary-foreground"
+                className="flex items-center justify-center rounded-full bg-primary px-5 py-3.5 text-sm font-medium uppercase tracking-[0.18em] text-primary-foreground hover:bg-rose-deep transition-colors"
               >
                 {t.nav.book}
               </Link>
@@ -118,7 +125,7 @@ export function Header() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="flex items-center justify-center rounded-full border border-primary px-5 py-3 text-sm font-medium uppercase tracking-[0.18em] text-primary"
+                className="flex items-center justify-center rounded-full border border-primary px-5 py-3.5 text-sm font-medium uppercase tracking-[0.18em] text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 {t.nav.whatsapp}
               </a>
