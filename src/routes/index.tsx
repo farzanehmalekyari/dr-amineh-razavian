@@ -12,7 +12,7 @@ import serviceSkin from "@/assets/service-skin.jpg";
 import serviceBody from "@/assets/service-body.jpg";
 import baLipsBefore from "@/assets/ba-lips-before.jpg";
 import baLipsAfter from "@/assets/ba-lips-after.jpg";
-import baBotoxBefore from "@/assets/service-skin.jpg";
+import baBotoxBefore from "@/assets/ba-botox-before.jpg";
 import baBotoxAfter from "@/assets/ba-botox-after.jpg";
 import baChinBefore from "@/assets/ba-chin-before.jpg";
 import baChinAfter from "@/assets/ba-chin-after.jpg";
