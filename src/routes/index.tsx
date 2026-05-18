@@ -60,26 +60,40 @@ function Index() {
 }
 
 function Hero() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   return (
     <section className="relative min-h-[90vh] flex flex-col">
       {/* Mobile background image (hidden on lg+) */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat lg:hidden"
-        style={{ backgroundImage: `url(${doctorHeroMobile})` }}
-      />
+  className={`absolute inset-0 bg-cover bg-center bg-no-repeat lg:hidden ${
+    lang === "ar" ? "scale-x-[-1]" : ""
+  }`}
+  style={{ backgroundImage: `url(${doctorHeroMobile})` }}
+/>
       {/* Desktop background image (hidden below lg) */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden lg:block"
-        style={{ backgroundImage: `url(${doctorHero})` }}
-      />
+  className={`absolute inset-0 bg-cover bg-center bg-no-repeat hidden lg:block ${
+    lang === "ar" ? "scale-x-[-1]" : ""
+  }`}
+  style={{ backgroundImage: `url(${doctorHero})` }}
+/>
       {/* Dark gradient overlay — stronger on left for mobile left-aligned content */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/20" />
+      <div
+  className={`absolute inset-0 ${
+    lang === "ar"
+      ? "bg-gradient-to-l from-black/60 via-black/20 to-black/10"
+      : "bg-gradient-to-r from-black/60 via-black/20 to-black/10"
+  }`}
+/>
 
       {/* Content */}
       <div className="relative z-10 flex flex-1 items-center">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
-          <div className="max-w-2xl text-left lg:mx-0 lg:text-left space-y-6">
+          <div
+  className={`max-w-2xl space-y-6 lg:mx-0 ${
+    lang === "ar" ? "text-right ml-auto" : "text-left"
+  }`}
+>
             <p className="eyebrow text-white/70">{t.hero.eyebrow}</p>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.05] text-balance text-white">
               {t.hero.title.split(",")[0]},
@@ -100,7 +114,7 @@ function Hero() {
 
             <div className="mt-8 grid grid-cols-3 gap-3 max-w-xl">
               {t.hero.strip.map((s, i) => (
-                <div key={i} className="rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-3 text-center">
+                <div key={i} className="rounded-2xl bg-white/5 backdrop-blur-md border border-white/25 px-3 py-3 text-center">
                   <div className="mx-auto mb-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-primary/30 text-white">
                     {i === 0 ? <Leaf className="h-3.5 w-3.5" /> : i === 1 ? <Shield className="h-3.5 w-3.5" /> : <Sparkles className="h-3.5 w-3.5" />}
                   </div>
