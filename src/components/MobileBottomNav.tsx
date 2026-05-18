@@ -26,8 +26,6 @@ export function MobileBottomNav() {
         <ul className="grid grid-cols-5">
           <NavItem to="/" icon={<Home className="h-5 w-5" />} label={t.nav.home} />
           <NavItem to="/services" icon={<Sparkles className="h-5 w-5" />} label={t.nav.services} />
-          <NavItem to="/blog" icon={<BookOpen className="h-5 w-5" />} label={t.nav.blog} />
-          <NavItem to="/contact" icon={<Phone className="h-5 w-5" />} label={t.nav.contact} />
           <li>
             <a
               href={WHATSAPP_URL}
@@ -41,6 +39,9 @@ export function MobileBottomNav() {
               <span className="uppercase tracking-wider">{t.nav.whatsapp}</span>
             </a>
           </li>
+          <NavItem to="/blog" icon={<BookOpen className="h-5 w-5" />} label={t.nav.blog} />
+          <NavItem to="/contact" icon={<Phone className="h-5 w-5" />} label={t.nav.contact} />
+          
         </ul>
       </nav>
     </div>
