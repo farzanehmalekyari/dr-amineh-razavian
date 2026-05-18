@@ -34,11 +34,15 @@ export function Header() {
 
   return (
     <header
-      className={cn(
-        "sticky top-0 z-40 w-full transition-all",
-        scrolled ? "bg-background/85 backdrop-blur-md border-b border-border" : "bg-background/60 backdrop-blur"
-      )}
-    >
+  className={cn(
+    "sticky top-0 z-40 w-full",
+    open
+      ? "bg-[#FCF9F7] border-b border-border"
+      : scrolled
+      ? "bg-background/85 backdrop-blur-md border-b border-border"
+      : "bg-background/60 backdrop-blur"
+  )}
+>
       <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-20 lg:px-8">
         <Logo />
 
