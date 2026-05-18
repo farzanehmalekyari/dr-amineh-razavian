@@ -9,7 +9,7 @@ export function Logo({ className = "" }: { className?: string }) {
       </span>
       <span className="flex flex-col leading-none">
         <span className="font-serif text-base sm:text-lg tracking-wide text-foreground">Dr. Zahra Salehi</span>
-        <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] text-muted-foreground">Aesthetic · Dubai</span>
+        <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] text-muted-foreground">Dermatologist · Dubai</span>
       </span>
     </Link>
   );
