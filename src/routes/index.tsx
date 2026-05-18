@@ -61,53 +61,51 @@ function Index() {
 function Hero() {
   const { t } = useLang();
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-beige/60 via-ivory to-cream">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-12 lg:px-8 pt-10 lg:pt-16 pb-16 lg:pb-24 items-center">
-        <div className="space-y-6 lg:order-1 order-2">
-          <p className="eyebrow">{t.hero.eyebrow}</p>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.05] text-balance">
-            {t.hero.title.split(",")[0]},
-            <span className="block italic text-foreground/85">{t.hero.title.split(",").slice(1).join(",").trim()}</span>
-          </h1>
-          <div className="h-px w-20 bg-primary" />
-          <p className="text-lg text-foreground/80 max-w-xl">{t.hero.subtitle}</p>
-          <p className="text-sm text-muted-foreground max-w-xl leading-relaxed">{t.hero.body}</p>
-          <div className="flex flex-col sm:flex-row gap-3 pt-2">
-            <Link to="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm uppercase tracking-[0.18em] text-primary-foreground shadow-soft hover:bg-rose-deep transition">
-              <Calendar className="h-4 w-4" />{t.hero.ctaPrimary}
-            </Link>
-            <a href={WHATSAPP_URL} target="_blank" rel="noreferrer noopener" className="inline-flex items-center justify-center gap-2 rounded-full border border-primary px-6 py-3.5 text-sm uppercase tracking-[0.18em] text-primary hover:bg-primary hover:text-primary-foreground transition">
-              <MessageCircle className="h-4 w-4" />{t.hero.ctaSecondary}
-            </a>
-          </div>
+    <section className="relative min-h-[90vh] bg-cover bg-center bg-no-repeat flex flex-col" style={{ backgroundImage: `url(${doctorHero})` }}>
+      {/* Dark gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
 
-          <div className="mt-8 grid grid-cols-3 gap-3 max-w-xl">
-            {t.hero.strip.map((s, i) => (
-              <div key={i} className="rounded-2xl bg-card/80 border border-border px-3 py-3 text-center">
-                <div className="mx-auto mb-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-primary/15 text-primary">
-                  {i === 0 ? <Leaf className="h-3.5 w-3.5" /> : i === 1 ? <Shield className="h-3.5 w-3.5" /> : <Sparkles className="h-3.5 w-3.5" />}
+      {/* Content */}
+      <div className="relative z-10 flex flex-1 items-center">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+          <div className="max-w-2xl mx-auto text-center lg:mx-0 lg:text-left space-y-6">
+            <p className="eyebrow text-white/70">{t.hero.eyebrow}</p>
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.05] text-balance text-white">
+              {t.hero.title.split(",")[0]},
+              <span className="block italic text-white/85">{t.hero.title.split(",").slice(1).join(",").trim()}</span>
+            </h1>
+            <div className="h-px w-20 bg-primary mx-auto lg:mx-0" />
+            <p className="text-lg text-white/80 max-w-xl mx-auto lg:mx-0">{t.hero.subtitle}</p>
+            <p className="text-sm text-white/60 max-w-xl mx-auto lg:mx-0 leading-relaxed">{t.hero.body}</p>
+
+            <div className="flex flex-col sm:flex-row gap-3 pt-2 justify-center lg:justify-start">
+              <Link to="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm uppercase tracking-[0.18em] text-primary-foreground shadow-soft hover:bg-rose-deep transition">
+                <Calendar className="h-4 w-4" />{t.hero.ctaPrimary}
+              </Link>
+              <a href={WHATSAPP_URL} target="_blank" rel="noreferrer noopener" className="inline-flex items-center justify-center gap-2 rounded-full border border-white/60 px-6 py-3.5 text-sm uppercase tracking-[0.18em] text-white hover:bg-white/10 transition">
+                <MessageCircle className="h-4 w-4" />{t.hero.ctaSecondary}
+              </a>
+            </div>
+
+            <div className="mt-8 grid grid-cols-3 gap-3 max-w-xl mx-auto lg:mx-0">
+              {t.hero.strip.map((s, i) => (
+                <div key={i} className="rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 px-3 py-3 text-center">
+                  <div className="mx-auto mb-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-primary/30 text-white">
+                    {i === 0 ? <Leaf className="h-3.5 w-3.5" /> : i === 1 ? <Shield className="h-3.5 w-3.5" /> : <Sparkles className="h-3.5 w-3.5" />}
+                  </div>
+                  <p className="text-[11px] sm:text-xs text-white/80 leading-tight">{s}</p>
                 </div>
-                <p className="text-[11px] sm:text-xs text-foreground leading-tight">{s}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="relative lg:order-2 order-1">
-          <div className="relative overflow-hidden rounded-[2rem] shadow-elegant aspect-[3/4] lg:aspect-[4/5]">
-            <img src={doctorHero} alt="Dr. Zahra Salehi, DHA-licensed aesthetic doctor in Dubai" className="h-full w-full object-cover" />
-          </div>
-          <div className="absolute bottom-5 end-5 max-w-[260px] rounded-2xl bg-card/95 backdrop-blur p-4 shadow-elegant border border-border">
-            <p className="font-serif text-lg leading-tight">Dr. Zahra Salehi</p>
-            <p className="text-xs text-muted-foreground mt-1">{t.hero.doctorTitle}</p>
+              ))}
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="border-t border-border/80 bg-card/40">
+      {/* Trust bar */}
+      <div className="relative z-10 border-t border-white/10 bg-black/30 backdrop-blur-sm">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4 flex gap-4 overflow-x-auto scrollbar-hide">
           {t.hero.trust.map((b) => (
-            <span key={b} className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground whitespace-nowrap">
+            <span key={b} className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-white/60 whitespace-nowrap">
               <CheckCircle2 className="h-3.5 w-3.5 text-primary" /> {b}
             </span>
           ))}
