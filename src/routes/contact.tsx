@@ -8,10 +8,10 @@ import clinic from "@/assets/clinic-interior.jpg";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Book Consultation | Dr. Zahra Salehi Dubai" },
-      { name: "description", content: "Book your aesthetic consultation with Dr. Zahra Salehi for Botox, fillers, PRP, skin rejuvenation and non-surgical treatments in Dubai." },
-      { property: "og:title", content: "Book Consultation | Dr. Zahra Salehi" },
-      { property: "og:description", content: "Book your aesthetic consultation in Dubai." },
+      { title: "Book Smile Consultation | Dr. Arefeh Lotfi Dubai" },
+      { name: "description", content: "Book a personalized cosmetic dentistry consultation with Dr. Arefeh Lotfi for veneers, smile makeovers and digital dentistry in Dubai." },
+      { property: "og:title", content: "Book Smile Consultation | Dr. Arefeh Lotfi" },
+      { property: "og:description", content: "Luxury cosmetic dentistry consultations in Dubai focused on natural smile transformations." },
       { property: "og:url", content: "/contact" },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
