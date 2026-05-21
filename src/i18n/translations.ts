@@ -3,14 +3,14 @@ export type Lang = "en" | "ar";
 export const translations = {
   en: {
     dir: "ltr",
-    brand: { name: "Dr. Zahra Salehi", tagline: "Aesthetic Medicine — Dubai" },
+    brand: { name: "Dr. Arefeh Lotfi", tagline: "Luxury Cosmetic Dentist · Dubai" },
     nav: {
       home: "Home",
       about: "About",
       services: "Services",
       blog: "Blog",
       contact: "Contact",
-      book: "Book Consultation",
+      book: "Book Smile Consultation",
       whatsapp: "WhatsApp",
     },
     hero: {
@@ -326,14 +326,14 @@ export const translations = {
   },
   ar: {
     dir: "rtl",
-    brand: { name: "د. زهرة صالحي", tagline: "طب التجميل — دبي" },
+    brand: { name: "د. أرفه لطفي", tagline: "طبيبة أسنان تجميلية فاخرة · دبي" },
     nav: {
       home: "الرئيسية",
       about: "عن الطبيبة",
       services: "الخدمات",
       blog: "المدونة",
       contact: "تواصل",
-      book: "احجز استشارة",
+      book: "احجزي استشارة ابتسامة",
       whatsapp: "واتساب",
     },
     hero: {
