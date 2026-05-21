@@ -280,7 +280,7 @@ function Insta() {
                   <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/15 text-primary"><Instagram className="h-4 w-4" /></span>
                   <div className="leading-tight">
                     <p className="text-sm font-medium">{t.insta.handle.replace("@", "")}</p>
-                    <p className="text-[11px] text-muted-foreground">Dermatologist</p>
+                    <p className="text-[11px] text-muted-foreground">Cosmetic Dentist · Dubai</p>
                   </div>
                 </div>
                 <MoreHorizontal className="h-4 w-4 text-muted-foreground" />
@@ -296,7 +296,7 @@ function Insta() {
                 <p className="mt-2 text-sm text-foreground/85">{c.caption}</p>
               </div>
               <div className="border-t border-border p-3 flex items-center justify-between bg-muted/30">
-                <span className="text-xs text-muted-foreground inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5 text-primary" /> Interested in this result?</span>
+                <span className="text-xs text-muted-foreground inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5 text-primary" /> Interested in this smile?</span>
                 {/* <Link to="/contact" className="text-xs font-medium text-primary inline-flex items-center gap-1">Book <ArrowRight className="h-3 w-3" /></Link> */}
               </div>
             </article>
