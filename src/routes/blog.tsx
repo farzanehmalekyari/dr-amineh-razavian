@@ -14,10 +14,10 @@ import insta2 from "@/assets/insta-2.jpg";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Aesthetic Journal | Botox, Fillers, PRP & Natural Beauty Tips" },
-      { name: "description", content: "Doctor-guided articles about natural Botox, fillers, PRP, skin rejuvenation, aftercare and aesthetic treatments in Dubai." },
-      { property: "og:title", content: "Aesthetic Journal | Dr. Zahra Salehi" },
-      { property: "og:description", content: "Doctor-guided articles about Botox, fillers, PRP and skin rejuvenation." },
+      { title: "Cosmetic Dentistry Journal Dubai | Smile Design & Veneers" },
+      { name: "description", content: "Insights on smile makeovers, veneers, digital dentistry and aesthetic dental treatments by Dr. Arefeh Lotfi in Dubai." },
+      { property: "og:title", content: "Cosmetic Dentistry Journal | Dr. Arefeh Lotfi" },
+      { property: "og:description", content: "Doctor-guided insights on veneers, smile design, laser dentistry and natural-looking smile transformations." },
       { property: "og:url", content: "/blog" },
     ],
     links: [{ rel: "canonical", href: "/blog" }],
