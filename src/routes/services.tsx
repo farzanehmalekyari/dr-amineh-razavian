@@ -10,10 +10,10 @@ import serviceBody from "@/assets/service-body.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Aesthetic Services in Dubai | Botox, Fillers, PRP & Skin Treatments" },
-      { name: "description", content: "Explore natural Botox, lip filler, facial contouring, PRP, skin boosters, laser hair removal and body treatments by Dr. Zahra Salehi." },
-      { property: "og:title", content: "Aesthetic Services in Dubai | Dr. Zahra Salehi" },
-      { property: "og:description", content: "Explore Botox, fillers, PRP, skin rejuvenation and body treatments by Dr. Zahra Salehi." },
+      { title: "Luxury Cosmetic Dentistry Services Dubai | Dr. Arefeh Lotfi" },
+      { name: "description", content: "Explore smile makeovers, veneers, digital smile design, laser dentistry and full smile rehabilitation by Dr. Arefeh Lotfi in Dubai." },
+      { property: "og:title", content: "Luxury Cosmetic Dentistry Services Dubai | Dr. Arefeh Lotfi" },
+      { property: "og:description", content: "Luxury smile transformations, veneers, digital dentistry and aesthetic smile rehabilitation in Dubai." },
       { property: "og:url", content: "/services" },
     ],
     links: [{ rel: "canonical", href: "/services" }],
