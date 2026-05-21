@@ -8,10 +8,10 @@ import clinic from "@/assets/clinic-interior.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Dr. Zahra Salehi | DHA-Licensed Aesthetic Doctor Dubai" },
-      { name: "description", content: "Meet Dr. Zahra Salehi, a DHA-licensed aesthetic doctor in Dubai focused on natural, subtle and science-based aesthetic results." },
-      { property: "og:title", content: "About Dr. Zahra Salehi" },
-      { property: "og:description", content: "DHA-licensed aesthetic doctor in Dubai focused on natural results." },
+      { title: "About Dr. Arefeh Lotfi | Luxury Cosmetic Dentist Dubai" },
+      { name: "description", content: "Meet Dr. Arefeh Lotfi, a Dubai-based cosmetic dentist specializing in smile makeovers, veneers, digital dentistry and natural-looking smile transformations." },
+      { property: "og:title", content: "About Dr. Arefeh Lotfi | Luxury Cosmetic Dentist Dubai" },
+      { property: "og:description", content: "Meet Dr. Arefeh Lotfi, a Dubai-based cosmetic dentist specializing in smile makeovers, veneers, digital dentistry and natural-looking smile transformations." },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
@@ -31,7 +31,7 @@ function About() {
             <p className="mt-4 text-muted-foreground leading-relaxed max-w-xl">{t.about.sub}</p>
           </div>
           <div className="overflow-hidden rounded-3xl shadow-elegant aspect-[4/5]">
-            <img src={doctorHero} alt="Dr. Zahra Salehi" className="h-full w-full object-cover" />
+            <img src={doctorHero} alt="Dr. Arefeh Lotfi" className="h-full w-full object-cover" />
           </div>
         </div>
       </section>
