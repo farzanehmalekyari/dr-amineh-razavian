@@ -113,19 +113,43 @@ export const translations = {
       ctaSecondary: "Ask About Your Smile",
     },
     faq: {
-      eyebrow: "Questions Before Booking",
-      title: "Everything You Need to Know Before Your Consultation",
+      eyebrow: "Before Your Consultation",
+      title: "Everything You Need to Feel Confident Before You Begin",
       items: [
-        { q: "Will my Botox or filler look natural?", a: "Yes. Dr. Zahra's approach focuses on subtle, balanced enhancement based on your facial anatomy, not overdone changes." },
-        { q: "How do I know which treatment I need?", a: "You do not need to decide alone. During consultation, your face, skin quality and goals are assessed before recommending Botox, filler, PRP, skin booster or other options." },
-        { q: "Is the treatment painful?", a: "Most injectable treatments involve minimal discomfort. Numbing cream or comfort measures may be used depending on the treatment area." },
-        { q: "How long do results last?", a: "It depends on the treatment, product, area and your metabolism. Botox commonly lasts a few months, while fillers and skin treatments vary by case." },
-        { q: "Can I book a consultation online?", a: "Yes. You can book through the website form or contact the clinic directly via WhatsApp." },
-        { q: "Where does Dr. Zahra practice?", a: "Dr. Zahra is based in Dubai and also has experience working with patients in Iran. Exact clinic location and availability should be confirmed during booking." },
-        { q: "Is Dr. Zahra DHA licensed?", a: "Yes. Dr. Zahra Salehi is a DHA-licensed aesthetic doctor in Dubai." },
-        { q: "Do you offer consultations in English and Arabic?", a: "Yes, the website supports English and Arabic. Persian support can be added later if needed." },
+        {
+          q: "Will my smile look natural, not overdone?",
+          a: "Always. Dr. Arefeh's philosophy is rooted in harmony — every smile is designed to enhance your unique features, not override them. The result should look like the best version of you, not someone else.",
+        },
+        {
+          q: "How do I know which smile treatment is right for me?",
+          a: "You don't need to decide alone. During your consultation, Dr. Arefeh evaluates your facial proportions, tooth structure and aesthetic goals before recommending veneers, a smile makeover, digital design or any other treatment.",
+        },
+        {
+          q: "What is Digital Smile Design and how does it work?",
+          a: "Digital Smile Design uses advanced 3D imaging to map, design and preview your new smile before any treatment begins. You see the outcome first — then we craft it with precision.",
+        },
+        {
+          q: "How long do veneers and smile makeovers last?",
+          a: "High-quality porcelain veneers can last 10 to 15 years or more with proper care. Dr. Arefeh uses only premium-grade materials selected for both longevity and natural aesthetics.",
+        },
+        {
+          q: "I'm visiting Dubai from abroad — can I complete my treatment during my stay?",
+          a: "Yes. Dr. Arefeh regularly works with international patients and designs treatment timelines around your visit. A pre-visit digital consultation can be arranged to prepare everything in advance.",
+        },
+        {
+          q: "Is laser dentistry comfortable?",
+          a: "Laser treatments are among the most precise and minimally invasive procedures in modern dentistry. Most patients experience significantly less discomfort compared to traditional methods, with faster recovery.",
+        },
+        {
+          q: "Can I book a private consultation before committing to treatment?",
+          a: "Absolutely. A private consultation is always the first step. It's a relaxed, no-pressure conversation where Dr. Arefeh listens to your goals and presents the options that suit you best.",
+        },
+        {
+          q: "Do you offer consultations in English, Arabic and Persian?",
+          a: "Yes. Dr. Arefeh's practice welcomes patients in English, Arabic and Persian — ensuring every patient feels fully understood and at ease throughout their journey.",
+        },
       ],
-      cta: "Still not sure what you need? Book a consultation.",
+      cta: "Still have questions? Book a private consultation.",
     },
     insta: {
       eyebrow: "From Instagram",
@@ -391,19 +415,43 @@ export const translations = {
       ctaSecondary: "اسألي عن ابتسامتكِ",
     },
     faq: {
-      eyebrow: "أسئلة قبل الحجز",
-      title: "كل ما تحتاجين معرفته قبل استشارتك",
+      eyebrow: "قبل استشارتكِ",
+      title: "كل ما تحتاجين لتبدئي بثقة تامة",
       items: [
-        { q: "هل سيبدو البوتكس أو الفيلر طبيعياً؟", a: "نعم. نهج د. زهرة يركز على تحسين هادئ ومتوازن وفق تشريح وجهك، دون مبالغة." },
-        { q: "كيف أعرف العلاج المناسب؟", a: "ليس عليك تحديد ذلك وحدك. خلال الاستشارة يتم تقييم وجهك وحالة بشرتك وأهدافك قبل اقتراح أي علاج." },
-        { q: "هل العلاج مؤلم؟", a: "معظم الحقن تتضمن انزعاجاً بسيطاً. يمكن استخدام مخدر موضعي حسب المنطقة." },
-        { q: "كم تدوم النتائج؟", a: "تختلف حسب العلاج والمادة المستخدمة والمنطقة. البوتكس عادة عدة أشهر، أما الفيلر وعلاجات البشرة فتختلف." },
-        { q: "هل يمكنني الحجز عبر الإنترنت؟", a: "نعم، من خلال نموذج الموقع أو التواصل عبر واتساب مباشرة." },
-        { q: "أين تعمل د. زهرة؟", a: "د. زهرة في دبي ولديها خبرة مع مرضى في إيران أيضاً. يتم تأكيد العيادة عند الحجز." },
-        { q: "هل د. زهرة مرخصة من DHA؟", a: "نعم، د. زهرة صالحي طبيبة تجميل مرخصة من هيئة الصحة بدبي." },
-        { q: "هل تتوفر استشارات بالعربية والإنجليزية؟", a: "نعم، الموقع يدعم العربية والإنجليزية." },
+        {
+          q: "هل ستبدو ابتسامتي طبيعية وغير مبالغ فيها؟",
+          a: "دائماً. فلسفة د. أرفه مبنية على التناسق — كل ابتسامة مصممة لتعزيز ملامحكِ الفريدة، لا لتغييرها. النتيجة يجب أن تبدو كأفضل نسخة منكِ.",
+        },
+        {
+          q: "كيف أعرف علاج الابتسامة المناسب لي؟",
+          a: "لا تحتاجين لاتخاذ القرار وحدكِ. خلال الاستشارة، تقيّم د. أرفه تناسب وجهكِ وبنية أسنانكِ وأهدافكِ الجمالية قبل اقتراح القشور أو تحويل الابتسامة أو التصميم الرقمي أو أي علاج آخر.",
+        },
+        {
+          q: "ما هو تصميم الابتسامة الرقمي وكيف يعمل؟",
+          a: "يستخدم تصميم الابتسامة الرقمي تصويراً ثلاثي الأبعاد متقدماً لرسم ابتسامتكِ الجديدة وتصميمها ومعاينتها قبل بدء أي علاج. ترين النتيجة أولاً — ثم نصنعها بدقة.",
+        },
+        {
+          q: "كم تدوم القشور وتحولات الابتسامة؟",
+          a: "قشور البورسلين عالية الجودة يمكن أن تدوم من 10 إلى 15 عاماً أو أكثر مع العناية المناسبة. تستخدم د. أرفه فقط مواد من الدرجة الأولى مختارة للمتانة والجماليات الطبيعية.",
+        },
+        {
+          q: "أزور دبي من الخارج — هل يمكنني إتمام علاجي خلال إقامتي؟",
+          a: "نعم. تعمل د. أرفه بانتظام مع مرضى دوليين وتصمم جداول العلاج حول زيارتكِ. يمكن ترتيب استشارة رقمية قبل الزيارة لتحضير كل شيء مسبقاً.",
+        },
+        {
+          q: "هل ليزر الأسنان مريح؟",
+          a: "علاجات الليزر من أكثر الإجراءات دقة وأقلها توغلاً في طب الأسنان الحديث. يشعر معظم المرضى بانزعاج أقل بكثير مقارنة بالطرق التقليدية، مع تعافٍ أسرع.",
+        },
+        {
+          q: "هل يمكنني حجز استشارة خاصة قبل الالتزام بالعلاج؟",
+          a: "بالتأكيد. الاستشارة الخاصة هي دائماً الخطوة الأولى. إنها محادثة هادئة وبلا ضغط حيث تستمع د. أرفه لأهدافكِ وتقدم الخيارات الأنسب لكِ.",
+        },
+        {
+          q: "هل تقدمون استشارات بالإنجليزية والعربية والفارسية؟",
+          a: "نعم. تُرحب عيادة د. أرفه بالمرضى بالإنجليزية والعربية والفارسية — لضمان أن يشعر كل مريض بالفهم الكامل والراحة طوال رحلته.",
+        },
       ],
-      cta: "ما زلتِ غير متأكدة؟ احجزي استشارة.",
+      cta: "لديكِ المزيد من الأسئلة؟ احجزي استشارة خاصة.",
     },
     insta: {
       eyebrow: "من إنستغرام",
