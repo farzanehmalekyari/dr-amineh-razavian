@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useLang } from "@/i18n/LanguageContext";
 import { SectionHeading } from "@/components/SectionHeading";
 import { CheckCircle2, MapPin } from "lucide-react";
-import doctorHero from "@/assets/doctor-hero.jpg";
+import aboutTop from "@/assets/about-top.jpg";
 import clinic from "@/assets/clinic-interior.jpg";
 
 export const Route = createFileRoute("/about")({
@@ -31,7 +31,7 @@ function About() {
             <p className="mt-4 text-muted-foreground leading-relaxed max-w-xl">{t.about.sub}</p>
           </div>
           <div className="overflow-hidden rounded-3xl shadow-elegant aspect-[4/5]">
-            <img src={doctorHero} alt="Dr. Arefeh Lotfi" className="h-full w-full object-cover" />
+            <img src={aboutTop} alt="Dr. Arefeh Lotfi" className="h-full w-full object-cover" />
           </div>
         </div>
       </section>
