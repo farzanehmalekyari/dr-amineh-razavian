@@ -78,11 +78,12 @@ function Hero() {
   style={{ backgroundImage: `url(${doctorHero})` }}
 />
       {/* Dark gradient overlay — stronger on left for mobile left-aligned content */}
-      <div
+      {/* Softer premium overlay */}
+<div
   className={`absolute inset-0 ${
     lang === "ar"
-      ? "bg-gradient-to-l from-black/60 via-black/20 to-black/10"
-      : "bg-gradient-to-r from-black/60 via-black/20 to-black/10"
+      ? "bg-gradient-to-l from-[#0F172A]/20 via-transparent to-transparent"
+      : "bg-gradient-to-r from-[#0F172A]/20 via-transparent to-transparent"
   }`}
 />
 
