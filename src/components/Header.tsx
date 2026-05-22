@@ -37,7 +37,7 @@ export function Header() {
   className={cn(
     "sticky top-0 z-40 w-full",
     open
-      ? "bg-[#FCF9F7] border-b border-border"
+      ? "bg-card border-b border-border"
       : scrolled
       ? "bg-background/85 backdrop-blur-md border-b border-border"
       : "bg-background/60 backdrop-blur"
@@ -85,7 +85,7 @@ export function Header() {
           {/* Backdrop */}
           <div className="absolute inset-0 bg-black/45" onClick={() => setOpen(false)} />
           {/* Full-screen menu panel */}
-          <div className="absolute inset-0 bg-[#FCF9F7] flex flex-col" style={{ backgroundColor: '#FCF9F7' }}>
+          <div className="absolute inset-0 bg-card flex flex-col" style={{ backgroundColor: 'var(--color-card)' }}>
             {/* Header row */}
             <div className="flex items-center justify-between border-b border-border/60 px-5 h-16 shrink-0">
               <Logo />

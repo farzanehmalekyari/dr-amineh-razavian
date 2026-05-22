@@ -48,34 +48,34 @@
 :root {
   --radius: 1rem;
 
-  /* Brand palette in oklch */
-  --ivory: oklch(0.965 0.013 40);          /* #F8F3F0 */
-  --cream: oklch(0.977 0.009 50);          /* #FCF9F7 */
-  --beige: oklch(0.91 0.022 40);           /* #EFE4DE */
-  --rose-soft: oklch(0.77 0.063 25);       /* #D7A29E */
-  --rose: oklch(0.69 0.075 22);            /* #C88B87 */
-  --rose-deep: oklch(0.62 0.083 22);       /* #B97874 */
-  --navy: oklch(0.27 0.062 265);           /* #1F2E4C */
+  /* Brand palette — Premium Dental */
+  --ivory: oklch(0.979 0.008 195);         /* #F7FCFC — page background */
+  --cream: oklch(1.0 0.0 0);               /* #FFFFFF — card / surface */
+  --beige: oklch(0.935 0.018 195);         /* #D9ECEE — borders / inputs / soft bg */
+  --rose-soft: oklch(0.885 0.038 195);     /* #B8E6EC — soft accent */
+  --rose: oklch(0.775 0.072 200);          /* #5CC8D6 — accent / highlight */
+  --rose-deep: oklch(0.48 0.09 195);       /* #007A78 — primary CTA */
+  --navy: oklch(0.29 0.04 230);            /* #2C3F4D — dark text anchor */
 
   --background: var(--ivory);
-  --foreground: oklch(0.32 0.028 30);      /* cocoa #4A3733 */
+  --foreground: var(--navy);               /* #2C3F4D — strong readable dark */
   --card: var(--cream);
   --card-foreground: var(--foreground);
   --popover: var(--cream);
   --popover-foreground: var(--foreground);
-  --primary: var(--rose);
-  --primary-foreground: oklch(0.99 0.005 50);
-  --secondary: var(--beige);
-  --secondary-foreground: var(--foreground);
-  --muted: oklch(0.94 0.014 40);
-  --muted-foreground: oklch(0.48 0.022 30); /* warm taupe #6A5751 */
-  --accent: var(--rose-soft);
-  --accent-foreground: oklch(0.99 0.005 50);
-  --destructive: oklch(0.55 0.18 27);
-  --destructive-foreground: oklch(0.99 0.005 50);
-  --border: oklch(0.88 0.018 35);          /* #E7D8D1 */
-  --input: oklch(0.88 0.018 35);
-  --ring: var(--rose);
+  --primary: var(--rose-deep);             /* #007A78 — CTA teal */
+  --primary-foreground: oklch(1.0 0.0 0);  /* white on teal — high contrast */
+  --secondary: var(--beige);              /* #D9ECEE — soft secondary bg */
+  --secondary-foreground: var(--navy);
+  --muted: oklch(0.955 0.012 195);         /* very light teal-tinted surface */
+  --muted-foreground: oklch(0.44 0.03 220); /* #5A6E7A — readable mid-tone */
+  --accent: var(--rose-soft);              /* #B8E6EC — soft teal accent */
+  --accent-foreground: var(--navy);        /* dark text on light accent */
+  --destructive: oklch(0.55 0.19 27);      /* accessible red */
+  --destructive-foreground: oklch(1.0 0.0 0);
+  --border: var(--beige);                  /* #D9ECEE */
+  --input: var(--beige);
+  --ring: var(--rose-deep);               /* focus ring = primary teal */
 }
 
 @layer base {
@@ -135,7 +135,7 @@
     background: linear-gradient(180deg, var(--cream) 0%, var(--ivory) 100%);
   }
 
-  .gradient-rose {
+  .gradient-teal {
     background: linear-gradient(135deg, var(--rose-soft), var(--rose));
   }
 }
