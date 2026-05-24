@@ -43,7 +43,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm uppercase tracking-[0.18em] text-foreground mb-4 font-sans font-medium">{t.footer.services}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              {["Smile Makeover", "Veneers", "Hollywood Smile", "Digital Smile Design", "Laser Dentistry", "Full Smile Rehabilitation"].map((s) => (
+              {t.footer.servicesList.map((s) => (
                 <li key={s}><Link to="/services" className="hover:text-primary">{s}</Link></li>
               ))}
             </ul>

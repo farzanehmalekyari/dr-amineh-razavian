@@ -4,7 +4,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { BeforeAfterSlider } from "@/components/BeforeAfterSlider";
 import { BookingForm } from "@/components/BookingForm";
 import { WHATSAPP_URL, INSTAGRAM_URL } from "@/lib/contact";
-import { ArrowRight, Calendar, CheckCircle2, Leaf, MessageCircle, Shield, Sparkles, Instagram, Bookmark, MoreHorizontal, ChevronDown } from "lucide-react";
+import { ArrowRight, Calendar, CheckCircle2, Leaf, MessageCircle, Shield, Sparkles, Instagram, MoreHorizontal, ChevronDown } from "lucide-react";
 import doctorHero from "@/assets/doctor-hero.jpg";
 import doctorHeroMobile from "@/assets/doctor-hero-mobile.jpg";
 import serviceFace from "@/assets/service-face.jpg";
@@ -24,10 +24,10 @@ import { useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dr. Zahra Salehi | DHA-Licensed Aesthetic Doctor in Dubai" },
-      { name: "description", content: "Natural Botox, fillers, PRP, skin rejuvenation and non-surgical aesthetic treatments in Dubai by Dr. Zahra Salehi. Book a personalized consultation." },
-      { property: "og:title", content: "Dr. Zahra Salehi | DHA-Licensed Aesthetic Doctor in Dubai" },
-      { property: "og:description", content: "Natural Botox, fillers, PRP, skin rejuvenation and non-surgical aesthetic treatments in Dubai." },
+      { title: "Dr. Arefeh Lotfi | Smile Transformation Specialist Dubai" },
+      { name: "description", content: "Premium smile transformations in Dubai by Dr. Arefeh Lotfi — veneers, Hollywood Smile, Digital Smile Design and natural-looking cosmetic dentistry." },
+      { property: "og:title", content: "Dr. Arefeh Lotfi | Smile Transformation Specialist Dubai" },
+      { property: "og:description", content: "Natural-looking smile transformations in Dubai. Veneers, Hollywood Smile and Digital Smile Design by Dr. Arefeh Lotfi." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -35,11 +35,11 @@ export const Route = createFileRoute("/")({
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Physician",
-        name: "Dr. Zahra Salehi",
-        medicalSpecialty: "Aesthetic Medicine",
+        "@type": "Dentist",
+        name: "Dr. Arefeh Lotfi",
+        medicalSpecialty: "Cosmetic Dentistry",
         areaServed: "Dubai, United Arab Emirates",
-        description: "DHA-licensed aesthetic physician offering natural Botox, fillers, PRP and skin rejuvenation.",
+        description: "Premium cosmetic dentist in Dubai specializing in smile transformations, veneers, Hollywood Smile and Digital Smile Design.",
       }),
     }],
   }),
@@ -281,7 +281,7 @@ function Insta() {
                   <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/15 text-primary"><Instagram className="h-4 w-4" /></span>
                   <div className="leading-tight">
                     <p className="text-sm font-medium">{t.insta.handle.replace("@", "")}</p>
-                    <p className="text-[11px] text-muted-foreground">Cosmetic Dentist · Dubai</p>
+                    <p className="text-[11px] text-muted-foreground">{t.insta.cardSubtitle}</p>
                   </div>
                 </div>
                 <MoreHorizontal className="h-4 w-4 text-muted-foreground" />
@@ -297,7 +297,7 @@ function Insta() {
                 <p className="mt-2 text-sm text-foreground/85">{c.caption}</p>
               </div>
               <div className="border-t border-border p-3 flex items-center justify-between bg-muted/30">
-                <span className="text-xs text-muted-foreground inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5 text-primary" /> Interested in this smile?</span>
+                <span className="text-xs text-muted-foreground inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5 text-primary" /> {t.insta.cardFooter}</span>
                 {/* <Link to="/contact" className="text-xs font-medium text-primary inline-flex items-center gap-1">Book <ArrowRight className="h-3 w-3" /></Link> */}
               </div>
             </article>

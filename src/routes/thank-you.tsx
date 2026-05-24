@@ -6,8 +6,8 @@ import { CheckCircle2, MessageCircle, Home } from "lucide-react";
 export const Route = createFileRoute("/thank-you")({
   head: () => ({
     meta: [
-      { title: "Thank You | Dr. Zahra Salehi" },
-      { name: "description", content: "Your consultation request has been received. Dr. Zahra's team will contact you shortly." },
+      { title: "Thank You | Dr. Arefeh Lotfi" },
+      { name: "description", content: "Your smile consultation request has been received. Dr. Arefeh's team will contact you shortly." },
       { name: "robots", content: "noindex" },
     ],
   }),

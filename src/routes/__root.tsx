@@ -68,10 +68,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
-      { title: "Dr. Zahra Salehi | DHA-Licensed Aesthetic Doctor in Dubai" },
-      { name: "description", content: "Natural Botox, fillers, PRP, skin rejuvenation and non-surgical aesthetic treatments in Dubai by Dr. Zahra Salehi. Book a personalized consultation." },
+      { title: "Dr. Arefeh Lotfi | Smile Transformation Specialist Dubai" },
+      { name: "description", content: "Premium smile transformations in Dubai by Dr. Arefeh Lotfi — veneers, Hollywood Smile, Digital Smile Design and natural-looking cosmetic dentistry." },
       { name: "theme-color", content: "#F7FCFC" },
-      { property: "og:site_name", content: "Dr. Zahra Salehi" },
+      { property: "og:site_name", content: "Dr. Arefeh Lotfi" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
