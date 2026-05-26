@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useLang } from "@/i18n/LanguageContext";
 import { SectionHeading } from "@/components/SectionHeading";
 import { BeforeAfterSlider } from "@/components/BeforeAfterSlider";
+import { SmileDesignSection } from "@/components/SmileDesignSection";
 import { BookingForm } from "@/components/BookingForm";
 import { WHATSAPP_URL, INSTAGRAM_URL } from "@/lib/contact";
 import { ArrowRight, Calendar, CheckCircle2, Leaf, MessageCircle, Shield, Sparkles, Instagram, MoreHorizontal, ChevronDown } from "lucide-react";
@@ -51,6 +52,7 @@ function Index() {
     <>
       <Hero />
       <Services />
+      <SmileDesignSection />
       <Results />
       <Faq />
       <Insta />

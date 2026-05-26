@@ -331,6 +331,30 @@ export const translations = {
       faqTitle: "Services FAQ",
       finalCta: "Book Smile Consultation",
     },
+    smileJourney: {
+  eyebrow: "Smile Design Journey",
+  title: "See How Your Smile Is Designed Before Treatment Begins",
+  subtitle:
+    "A transparent, artistic process designed around your facial harmony and natural expression.",
+  steps: [
+    {
+      title: "Initial Portrait",
+      desc: "A natural facial photo used as the design foundation.",
+    },
+    {
+      title: "Smile Analysis",
+      desc: "Facial proportions, smile line and symmetry are carefully assessed.",
+    },
+    {
+      title: "Treatment Mapping",
+      desc: "Precise aesthetic adjustments are digitally planned.",
+    },
+    {
+      title: "Final Transformation",
+      desc: "The refined smile outcome, designed to feel naturally yours.",
+    },
+  ],
+},
     common: {
       bestFor: "Best for",
       expected: "Expected result",
@@ -663,6 +687,30 @@ export const translations = {
       faqTitle: "أسئلة عن الخدمات",
       finalCta: "احجزي استشارة ابتسامة",
     },
+    smileJourney: {
+  eyebrow: "رحلة تصميم الابتسامة",
+  title: "شاهدي كيف يتم تصميم ابتسامتكِ قبل بدء العلاج",
+  subtitle:
+    "عملية فنية دقيقة وشفافة مصممة حول تناسق وجهكِ وتعبيركِ الطبيعي.",
+  steps: [
+    {
+      title: "الصورة الأولية",
+      desc: "صورة طبيعية للوجه تُستخدم كأساس للتصميم.",
+    },
+    {
+      title: "تحليل الابتسامة",
+      desc: "تحليل تناسق الوجه وخط الابتسامة والتماثل بعناية.",
+    },
+    {
+      title: "خطة التعديل",
+      desc: "تحديد التعديلات الجمالية المطلوبة بدقة رقمية.",
+    },
+    {
+      title: "النتيجة النهائية",
+      desc: "الابتسامة النهائية المصممة لتبدو طبيعية بالكامل.",
+    },
+  ],
+},
     common: {
       bestFor: "الأنسب لـ",
       expected: "النتيجة المتوقعة",
