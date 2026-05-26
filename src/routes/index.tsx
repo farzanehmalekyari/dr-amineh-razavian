@@ -106,7 +106,7 @@ function Hero() {
             <p className="text-lg text-white/80 max-w-[240px] sm:max-w-xl whitespace-pre-line">{t.hero.subtitle}</p>
             
 
-            <div className="flex flex-col sm:flex-row gap-3 pt-2 justify-start">
+            <div className="flex flex-col sm:flex-row gap-3 pt-8 justify-start">
               <Link to="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm uppercase tracking-[0.18em] text-primary-foreground shadow-soft hover:bg-rose-deep transition">
                 <Calendar className="h-4 w-4" />{t.hero.ctaPrimary}
               </Link>
