@@ -338,20 +338,20 @@ export const translations = {
     "A transparent, artistic process designed around your facial harmony and natural expression.",
   steps: [
     {
-      title: "Initial Portrait",
-      desc: "A natural facial photo used as the design foundation.",
+      title: "Your Natural Starting Point",
+      desc: "Every smile journey begins with understanding your unique facial harmony.",
     },
     {
-      title: "Smile Analysis",
-      desc: "Facial proportions, smile line and symmetry are carefully assessed.",
+      title: "Digital Smile Analysis",
+      desc: "We study proportions, symmetry and smile dynamics before any treatment begins.",
     },
     {
-      title: "Treatment Mapping",
-      desc: "Precise aesthetic adjustments are digitally planned.",
+      title: "Precision Smile Planning",
+      desc: "Every refinement is intentionally mapped to create a naturally elegant result.",
     },
     {
-      title: "Final Transformation",
-      desc: "The refined smile outcome, designed to feel naturally yours.",
+      title: "Your Smile, Reimagined",
+      desc: "A transformation designed to enhance your confidence without losing your identity.",
     },
   ],
 },
@@ -694,20 +694,20 @@ export const translations = {
     "عملية فنية دقيقة وشفافة مصممة حول تناسق وجهكِ وتعبيركِ الطبيعي.",
   steps: [
     {
-      title: "الصورة الأولية",
-      desc: "صورة طبيعية للوجه تُستخدم كأساس للتصميم.",
+      title: "بداية ابتسامتكِ الطبيعية",
+      desc: "كل رحلة ابتسامة تبدأ بفهم ملامح وجهكِ وتناسقكِ الطبيعي.",
     },
     {
-      title: "تحليل الابتسامة",
-      desc: "تحليل تناسق الوجه وخط الابتسامة والتماثل بعناية.",
+      title: "تحليل الابتسامة الرقمي",
+      desc: "نحلل التناسق والنسب وحركة الابتسامة قبل بدء أي علاج.",
     },
     {
-      title: "خطة التعديل",
-      desc: "تحديد التعديلات الجمالية المطلوبة بدقة رقمية.",
+      title: "تخطيط الابتسامة بدقة",
+      desc: "كل تعديل يُخطط بعناية لتحقيق نتيجة طبيعية وأنيقة.",
     },
     {
-      title: "النتيجة النهائية",
-      desc: "الابتسامة النهائية المصممة لتبدو طبيعية بالكامل.",
+      title: "ابتسامتكِ بشكل جديد",
+      desc: "تحول يعزز ثقتكِ مع الحفاظ على هويتكِ الطبيعية.",
     },
   ],
 },
