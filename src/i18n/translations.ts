@@ -16,7 +16,7 @@ export const translations = {
     hero: {
       eyebrow: "Smile Transformation Specialist · Dubai",
       title: "The Smile You've Always Wanted,\nCrafted to Feel Like You",
-      subtitle: "Natural-looking. Confidence-defining.\nDesigned around your face — not a template.",
+      subtitle: "Natural-looking. Confidence-defining.\nDesigned around your face, not a template.",
       body:
         "Dr. Arefeh Lotfi combines digital precision, artistic judgment and premium materials to create smile transformations that feel completely, unmistakably yours.",
       ctaPrimary: "Begin Your Smile Journey",
