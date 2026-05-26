@@ -115,16 +115,7 @@ function Hero() {
               </a>
             </div>
 
-            <div className="mt-8 grid grid-cols-3 gap-3 max-w-xl">
-              {t.hero.strip.map((s, i) => (
-                <div key={i} className="rounded-2xl bg-white/5 backdrop-blur-md border border-white/25 px-3 py-3 text-center">
-                  <div className="mx-auto mb-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-primary/30 text-white">
-                    {i === 0 ? <Leaf className="h-3.5 w-3.5" /> : i === 1 ? <Shield className="h-3.5 w-3.5" /> : <Sparkles className="h-3.5 w-3.5" />}
-                  </div>
-                  <p className="text-[11px] sm:text-xs text-white/80 leading-tight">{s}</p>
-                </div>
-              ))}
-            </div>
+            
           </div>
         </div>
       </div>
