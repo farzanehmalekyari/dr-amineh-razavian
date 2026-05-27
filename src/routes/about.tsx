@@ -74,7 +74,7 @@ function About() {
       <section className="py-16 lg:py-24 bg-cream">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-2 items-center">
           <div className="overflow-hidden rounded-3xl shadow-soft aspect-[4/3]">
-            <img src={clinic} alt="Aesthetic clinic interior in Dubai" className="h-full w-full object-cover" loading="lazy" />
+            <img src={clinic} alt="Dental clinic in Dubai" className="h-full w-full object-cover" loading="lazy" />
           </div>
           <div>
             <SectionHeading eyebrow="" title={t.about.locationsTitle} align="start" />

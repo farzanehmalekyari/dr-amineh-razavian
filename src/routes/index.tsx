@@ -280,7 +280,7 @@ function Insta() {
                 <MoreHorizontal className="h-4 w-4 text-muted-foreground" />
               </header>
               <Link to={links[i]} target="_blank" rel="noopener noreferrer">
-                <img src={imgs[i]} alt={c.cat} className="aspect-square w-full object-cover" loading="lazy" />
+                <img src={imgs[i]} alt={c.caption} className="aspect-square w-full object-cover" loading="lazy" />
               </Link>
               <div className="p-4">
                 <div className="flex items-start justify-between gap-3">

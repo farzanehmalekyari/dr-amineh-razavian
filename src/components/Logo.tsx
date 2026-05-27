@@ -7,7 +7,7 @@ export function Logo({ className = "" }: { className?: string }) {
   return (
     <Link to="/" className={`flex items-center gap-2.5 ${className}`} aria-label="Home">
       <span className="flex h-14 w-14 items-center justify-center rounded-full text-primary">
-        <img src={logo} />
+        <img src={logo} alt="" />
       </span>
       <span className="flex flex-col leading-none">
         <span className="font-serif text-base sm:text-lg tracking-wide text-foreground">{t.brand.name}</span>
