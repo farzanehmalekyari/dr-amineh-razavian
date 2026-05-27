@@ -313,7 +313,7 @@ export const translations = {
       direct: [
         { label: "WhatsApp", value: "Chat with our team" },
         { label: "Instagram", value: "Educational updates & content" },
-        { label: "Email", value: "hello@drarefehlotfi.com" },
+        { label: "Email", value: "hello@example.com" },
         { label: "Dubai Clinic", value: "Dubai, UAE" },
         { label: "Iran Availability", value: "Consultation by arrangement" },
       ],
@@ -670,7 +670,7 @@ export const translations = {
       direct: [
         { label: "واتساب", value: "تواصل مع فريقنا" },
         { label: "إنستغرام", value: "محتوى تعليمي ومستجدات" },
-        { label: "البريد", value: "hello@drarefehlotfi.com" },
+        { label: "البريد", value: "hello@example.com" },
         { label: "عيادة دبي", value: "دبي، الإمارات" },
         { label: "إيران", value: "استشارة بالترتيب المسبق" },
       ],

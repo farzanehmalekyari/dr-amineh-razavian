@@ -25,10 +25,10 @@ import { useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dr. Arefeh Lotfi | Smile Transformation Specialist Dubai" },
-      { name: "description", content: "Premium smile transformations in Dubai by Dr. Arefeh Lotfi — veneers, Hollywood Smile, Digital Smile Design and natural-looking cosmetic dentistry." },
-      { property: "og:title", content: "Dr. Arefeh Lotfi | Smile Transformation Specialist Dubai" },
-      { property: "og:description", content: "Natural-looking smile transformations in Dubai. Veneers, Hollywood Smile and Digital Smile Design by Dr. Arefeh Lotfi." },
+      { title: "Dr. Amineh Razavian | Orthodontist & Family-Focused Dentist Dubai" },
+      { name: "description", content: "Orthodontic and preventive dental care for children, teens, and adults in Dubai — braces, clear aligners, kids orthodontic evaluations, and family dentistry." },
+      { property: "og:title", content: "Dr. Amineh Razavian | Orthodontist & Family-Focused Dentist Dubai" },
+      { property: "og:description", content: "Evidence-based orthodontic and preventive dental care in Dubai. Braces, clear aligners, kids orthodontic evaluations, and family-focused dentistry." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -37,10 +37,10 @@ export const Route = createFileRoute("/")({
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Dentist",
-        name: "Dr. Arefeh Lotfi",
-        medicalSpecialty: "Cosmetic Dentistry",
+        name: "Dr. Amineh Razavian",
+        medicalSpecialty: "Orthodontics",
         areaServed: "Dubai, United Arab Emirates",
-        description: "Premium cosmetic dentist in Dubai specializing in smile transformations, veneers, Hollywood Smile and Digital Smile Design.",
+        description: "Orthodontist and family-focused dentist in Dubai providing evidence-based orthodontic, preventive, and family dental care for children, teens, and adults.",
       }),
     }],
   }),

@@ -31,7 +31,7 @@ function About() {
             <p className="mt-4 text-muted-foreground leading-relaxed max-w-xl">{t.about.sub}</p>
           </div>
           <div className="overflow-hidden rounded-3xl shadow-elegant aspect-[4/5]">
-            <img src={aboutTop} alt="Dr. Arefeh Lotfi" className="h-full w-full object-cover" />
+            <img src={aboutTop} alt="Dr. Amineh Razavian" className="h-full w-full object-cover" />
           </div>
         </div>
       </section>

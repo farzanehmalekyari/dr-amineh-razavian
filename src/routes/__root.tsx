@@ -68,10 +68,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
-      { title: "Dr. Arefeh Lotfi | Smile Transformation Specialist Dubai" },
-      { name: "description", content: "Premium smile transformations in Dubai by Dr. Arefeh Lotfi — veneers, Hollywood Smile, Digital Smile Design and natural-looking cosmetic dentistry." },
+      { title: "Dr. Amineh Razavian | Orthodontist & Family-Focused Dentist Dubai" },
+      { name: "description", content: "Evidence-based orthodontic and preventive dental care for children, teens, and adults in Dubai — by Dr. Amineh Razavian, Orthodontist & Family-Focused Dentist." },
       { name: "theme-color", content: "#F7FCFC" },
-      { property: "og:site_name", content: "Dr. Arefeh Lotfi" },
+      { property: "og:site_name", content: "Dr. Amineh Razavian" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
