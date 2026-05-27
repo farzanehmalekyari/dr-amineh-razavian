@@ -8,10 +8,10 @@ import clinic from "@/assets/clinic-interior.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Dr. Arefeh Lotfi | Luxury Cosmetic Dentist Dubai" },
-      { name: "description", content: "Meet Dr. Arefeh Lotfi, a Dubai-based cosmetic dentist specializing in smile makeovers, veneers, digital dentistry and natural-looking smile transformations." },
-      { property: "og:title", content: "About Dr. Arefeh Lotfi | Luxury Cosmetic Dentist Dubai" },
-      { property: "og:description", content: "Meet Dr. Arefeh Lotfi, a Dubai-based cosmetic dentist specializing in smile makeovers, veneers, digital dentistry and natural-looking smile transformations." },
+      { title: "About Dr. Amineh Razavian | Orthodontist & Family-Focused Dentist Dubai" },
+      { name: "description", content: "Meet Dr. Amineh Razavian, an orthodontist and family-focused dentist in Dubai providing evidence-based orthodontic, preventive, and family dental care for children, teens, and adults." },
+      { property: "og:title", content: "About Dr. Amineh Razavian | Orthodontist & Family-Focused Dentist Dubai" },
+      { property: "og:description", content: "Meet Dr. Amineh Razavian, an orthodontist and family-focused dentist in Dubai providing evidence-based orthodontic, preventive, and family dental care for children, teens, and adults." },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
