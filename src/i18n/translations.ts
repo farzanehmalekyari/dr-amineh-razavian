@@ -155,8 +155,7 @@ export const translations = {
       eyebrow: "Education & Community",
       title: "Follow Real Educational Content",
       subtitle: "Practical orthodontic, preventive dental, and family oral health education for parents and adults.",
-      handle: "@dr.arefehlotfi",
-      cardSubtitle: "Educational Content",
+      handle: "@dr.amineh",
       cardFooter: "Updated educational content",
       cards: [
         {
@@ -514,8 +513,7 @@ export const translations = {
       eyebrow: "التثقيف والمجتمع",
       title: "تابع محتوى تعليمي حقيقي",
       subtitle: "محتوى عملي عن تقويم الأسنان والوقاية وصحة الفم العائلية للآباء والبالغين.",
-      handle: "@dr.arefehlotfi",
-      cardSubtitle: "محتوى تعليمي",
+      handle: "@dr.amineh",
       cardFooter: "محتوى تعليمي محدث",
       cards: [
         {
