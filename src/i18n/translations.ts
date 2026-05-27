@@ -184,7 +184,7 @@ export const translations = {
       trustPoints: [
         "Personalized consultation guidance",
         "Child-friendly supportive care",
-        "English and Arabic communication",
+        "English, Arabic, and Persian communication",
         "Thoughtful treatment planning",
       ],
       fields: {
@@ -193,7 +193,7 @@ export const translations = {
         email: "Email Address (optional)",
         location: "Where Are You Based?",
         concern: "Main Concern",
-        treatment: "Area of Interest",
+        treatment: "Requested Service",
         language: "Preferred Language",
         message: "Tell Us About Your Dental Needs",
         photo: "Share a Photo (optional)",
@@ -542,7 +542,7 @@ export const translations = {
       trustPoints: [
         "استشارة مخصصة حسب الحالة",
         "رعاية داعمة وصديقة للأطفال",
-        "التواصل بالإنجليزية والعربية",
+        "التواصل بالإنجليزية والعربية والفارسية",
         "تخطيط علاجي مدروس",
       ],
       fields: {
@@ -551,7 +551,7 @@ export const translations = {
         email: "البريد الإلكتروني (اختياري)",
         location: "أين تقيم؟",
         concern: "المخاوف الرئيسية",
-        treatment: "مجال الاهتمام",
+        treatment: "الخدمة المطلوبة",
         language: "اللغة المفضلة",
         message: "أخبرنا عن احتياجاتك السنية",
         photo: "شارك صورة (اختياري)",
