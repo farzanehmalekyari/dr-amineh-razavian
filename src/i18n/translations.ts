@@ -337,20 +337,20 @@ export const translations = {
     "We begin by understanding growth, oral health, and your concerns before recommending the most appropriate care.",
   steps: [
     {
-      title: "Initial Consultation",
-      desc: "Understanding concerns, history, and goals.",
+      title: "Warm Welcome & Initial Consultation",
+      desc: "Every child’s smile is unique. We begin with a friendly consultation to understand your child’s dental development, oral habits, and any concerns you may have, ensuring the right foundation for treatment.",
     },
     {
-      title: "Clinical Assessment",
-      desc: "Reviewing teeth, bite, oral development, and findings.",
+      title: "Advanced Digital Assessment",
+      desc: "Using modern digital imaging and diagnostic tools, we carefully assess tooth alignment, jaw growth, and bite development to create a precise and personalized orthodontic treatment plan.",
     },
     {
-      title: "Personalized Care Plan",
-      desc: "Discussing appropriate options based on individual needs.",
+      title: "Gentle Orthodontic Treatment",
+      desc: "Once the plan is in place, treatment begins with a child-friendly approach focused on comfort, healthy development, and steady progress through every stage of orthodontic care.",
     },
     {
-      title: "Ongoing Support",
-      desc: "Monitoring progress and supporting long-term oral health.",
+      title: "Healthy, Confident Smile",
+      desc: "As treatment progresses, we help maintain and protect your child’s results with ongoing guidance, ensuring a healthy bite and a confident smile that lasts for years to come.",
     },
   ],
 },
@@ -692,20 +692,20 @@ export const translations = {
     "نبدأ بفهم النمو وصحة الفم ومخاوفك قبل التوصية بالرعاية الأنسب.",
   steps: [
     {
-      title: "الاستشارة الأولية",
-      desc: "فهم المخاوف والتاريخ الصحي والأهداف.",
+      title: "الترحيب والاستشارة الأولية",
+      desc: "كل ابتسامة طفل فريدة من نوعها. نبدأ باستشارة ودية لفهم تطور أسنان طفلك والعادات الفموية وأي مخاوف لديك، لضمان بناء الأساس الصحيح للعلاج.",
     },
     {
-      title: "التقييم السريري",
-      desc: "مراجعة الأسنان والإطباق والتطور الفموي والنتائج.",
+      title: "التقييم الرقمي المتقدم",
+      desc: "باستخدام تقنيات التصوير الرقمي الحديثة وأدوات التشخيص المتقدمة، نقيم اصطفاف الأسنان ونمو الفك وتطور الإطباق لوضع خطة علاج تقويمية دقيقة ومخصصة.",
     },
     {
-      title: "خطة علاج شخصية",
-      desc: "مناقشة الخيارات المناسبة حسب الاحتياجات الفردية.",
+      title: "علاج تقويمي لطيف ومريح",
+      desc: "بعد وضع الخطة العلاجية، تبدأ رحلة العلاج بأسلوب صديق للأطفال يركز على الراحة والنمو الصحي والتقدم المستمر خلال جميع مراحل الرعاية التقويمية.",
     },
     {
-      title: "المتابعة المستمرة",
-      desc: "متابعة التقدم ودعم صحة الفم على المدى الطويل.",
+      title: "ابتسامة صحية وواثقة",
+      desc: "مع تقدم العلاج، نساعد في الحفاظ على النتائج وحمايتها من خلال المتابعة والإرشاد المستمر، لضمان إطباق صحي وابتسامة واثقة تدوم لسنوات.",
     },
   ],
 },

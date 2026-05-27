@@ -33,7 +33,7 @@ export function SmileDesignSection() {
   ];
 
   return (
-    <section className="py-20 sm:py-28">
+    <section className="py-14 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow={t.smileJourney.eyebrow}
@@ -41,7 +41,8 @@ export function SmileDesignSection() {
           subtitle={t.smileJourney.subtitle}
         />
 
-        <div className="mt-16 space-y-20">
+        <div className="relative mt-14 space-y-14">
+          <div className="absolute left-1/2 top-10 bottom-10 hidden lg:block -translate-x-1/2 border-l border-dashed border-border" />
           {steps.map((step, index) => {
             const reverseDesktop =
               dir === "ltr"
@@ -51,7 +52,7 @@ export function SmileDesignSection() {
             return (
               <div
                 key={index}
-                className={`grid items-center gap-8 lg:gap-16 ${
+                className={`grid items-center gap-6 lg:gap-10 ${
                   reverseDesktop
                     ? "lg:grid-cols-2"
                     : "lg:grid-cols-2"
@@ -66,7 +67,7 @@ export function SmileDesignSection() {
                     <img
                       src={step.image}
                       alt={step.title}
-                      className="h-[420px] sm:h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+                      className="h-[320px] sm:h-[420px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
                       loading="lazy"
                     />
                   </div>
@@ -77,8 +78,8 @@ export function SmileDesignSection() {
                     reverseDesktop ? "lg:order-1" : "lg:order-2"
                   }`}
                 >
-                  <div className="max-w-xl">
-                    <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-semibold shadow-soft">
+                  <div className="max-w-2xl">
+                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-semibold shadow-soft">
                       0{index + 1}
                     </div>
 
