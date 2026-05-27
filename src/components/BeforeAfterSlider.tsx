@@ -93,8 +93,8 @@ export function BeforeAfterSlider({ before, after, alt }: Props) {
         className="pointer-events-none absolute inset-y-0"
         style={{ left: `${pos}%`, transform: "translateX(-50%)" }}
       >
-        <div className="h-full w-0.5 bg-white/90 shadow" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex h-11 w-11 items-center justify-center rounded-full bg-white text-foreground shadow-elegant">
+        <div className="h-full w-0.5 bg-card/90 shadow" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex h-11 w-11 items-center justify-center rounded-full bg-card text-foreground shadow-elegant">
           <ChevronLeft className="h-4 w-4" />
           <ChevronRight className="h-4 w-4" />
         </div>

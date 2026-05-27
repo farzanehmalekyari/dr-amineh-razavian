@@ -37,45 +37,47 @@
   --color-navy: var(--navy);
   --color-rose: var(--rose);
   --color-rose-soft: var(--rose-soft);
+  --color-rose-deep: var(--rose-deep);
   --color-cream: var(--cream);
   --color-ivory: var(--ivory);
   --color-beige: var(--beige);
 
-  --shadow-elegant: 0 20px 60px -20px color-mix(in oklab, var(--foreground) 12%, transparent);
-  --shadow-soft: 0 8px 24px -12px color-mix(in oklab, var(--foreground) 10%, transparent);
+  --shadow-elegant: 0 20px 60px -20px color-mix(in oklab, var(--primary) 18%, transparent);
+  --shadow-soft: 0 8px 24px -12px color-mix(in oklab, var(--primary) 12%, transparent);
+  --shadow-primary: 0 4px 16px -4px color-mix(in oklab, var(--primary) 35%, transparent);
 }
 
 :root {
   --radius: 1rem;
 
-  /* Brand palette — Premium Dental */
-  --ivory: oklch(0.979 0.008 195);         /* #F7FCFC — page background */
+  /* Brand palette — Premium Pediatric Orthodontics */
+  --ivory: oklch(0.985 0.006 300);         /* #FCF9FF — page background, lavender-tinted white */
   --cream: oklch(1.0 0.0 0);               /* #FFFFFF — card / surface */
-  --beige: oklch(0.935 0.018 195);         /* #D9ECEE — borders / inputs / soft bg */
-  --rose-soft: oklch(0.885 0.038 195);     /* #B8E6EC — soft accent */
-  --rose: oklch(0.775 0.072 200);          /* #5CC8D6 — accent / highlight */
-  --rose-deep: oklch(0.48 0.09 195);       /* #007A78 — primary CTA */
-  --navy: oklch(0.29 0.04 230);            /* #2C3F4D — dark text anchor */
+  --beige: oklch(0.930 0.022 300);         /* #E6D9F5 — borders / inputs / soft bg */
+  --rose-soft: oklch(0.870 0.040 300);     /* #B084E8 — soft lavender accent */
+  --rose: oklch(0.820 0.060 350);          /* #F59BC1 — soft pink accent */
+  --rose-deep: oklch(0.440 0.110 295);     /* #6F46A6 — primary hover / dark lavender */
+  --navy: oklch(0.220 0.060 295);          /* #2F2347 — deep purple text anchor */
 
   --background: var(--ivory);
-  --foreground: var(--navy);               /* #2C3F4D — strong readable dark */
+  --foreground: var(--navy);               /* #2F2347 — strong readable deep purple */
   --card: var(--cream);
   --card-foreground: var(--foreground);
   --popover: var(--cream);
   --popover-foreground: var(--foreground);
-  --primary: var(--rose-deep);             /* #007A78 — CTA teal */
-  --primary-foreground: oklch(1.0 0.0 0);  /* white on teal — high contrast */
-  --secondary: var(--beige);              /* #D9ECEE — soft secondary bg */
+  --primary: oklch(0.510 0.130 295);       /* #8B5FBF — lavender CTA */
+  --primary-foreground: oklch(1.0 0.0 0);  /* white on lavender — high contrast */
+  --secondary: oklch(0.960 0.018 300);     /* #F4ECFB — soft lavender secondary bg */
   --secondary-foreground: var(--navy);
-  --muted: oklch(0.955 0.012 195);         /* very light teal-tinted surface */
-  --muted-foreground: oklch(0.44 0.03 220); /* #5A6E7A — readable mid-tone */
-  --accent: var(--rose-soft);              /* #B8E6EC — soft teal accent */
-  --accent-foreground: var(--navy);        /* dark text on light accent */
+  --muted: oklch(0.965 0.014 300);         /* #F6F0FB — very light lavender surface */
+  --muted-foreground: oklch(0.480 0.060 295); /* #6D5E86 — readable mid-tone purple */
+  --accent: oklch(0.960 0.018 300);        /* #F4ECFB — soft lavender accent */
+  --accent-foreground: var(--navy);
   --destructive: oklch(0.55 0.19 27);      /* accessible red */
   --destructive-foreground: oklch(1.0 0.0 0);
-  --border: var(--beige);                  /* #D9ECEE */
+  --border: var(--beige);                  /* #E6D9F5 */
   --input: var(--beige);
-  --ring: var(--rose-deep);               /* focus ring = primary teal */
+  --ring: var(--rose-soft);               /* focus ring = primary light lavender */
 }
 
 @layer base {
