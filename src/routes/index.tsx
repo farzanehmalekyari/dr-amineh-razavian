@@ -11,12 +11,16 @@ import doctorHeroMobile from "@/assets/doctor-hero-mobile.jpg";
 import serviceFace from "@/assets/service-face.jpg";
 import serviceSkin from "@/assets/service-skin.jpg";
 import serviceBody from "@/assets/service-body.jpg";
-import baLipsBefore from "@/assets/ba-lips-before.jpg";
-import baLipsAfter from "@/assets/ba-lips-after.jpg";
-import baBotoxBefore from "@/assets/ba-botox-before.jpg";
-import baBotoxAfter from "@/assets/ba-botox-after.jpg";
-import baChinBefore from "@/assets/ba-chin-before.jpg";
-import baChinAfter from "@/assets/ba-chin-after.jpg";
+
+import before1 from "@/assets/before-1.jpg";
+import after1 from "@/assets/after-1.jpg";
+
+import before2 from "@/assets/before-2.jpg";
+import after2 from "@/assets/after-2.jpg";
+
+import before3 from "@/assets/before-3.jpg";
+import after3 from "@/assets/after-3.jpg";
+
 import insta1 from "@/assets/insta-1.jpg";
 import insta2 from "@/assets/insta-2.jpg";
 import insta3 from "@/assets/insta-3.jpg";
@@ -189,9 +193,9 @@ function Services() {
 function Results() {
   const { t } = useLang();
   const cards = [
-    { ...t.results.cards[0], before: baLipsBefore, after: baLipsAfter },
-    { ...t.results.cards[1], before: baBotoxBefore, after: baBotoxAfter },
-    { ...t.results.cards[2], before: baChinBefore, after: baChinAfter },
+    { ...t.results.cards[0], before: before1, after: after1 },
+    { ...t.results.cards[1], before: before2, after: after2 },
+    { ...t.results.cards[2], before: before3, after: after3 },
   ];
   const [active, setActive] = useState(0);
   return (
