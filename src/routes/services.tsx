@@ -10,10 +10,10 @@ import serviceBody from "@/assets/service-body.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Luxury Cosmetic Dentistry Services Dubai | Dr. Arefeh Lotfi" },
-      { name: "description", content: "Explore smile makeovers, veneers, digital smile design, laser dentistry and full smile rehabilitation by Dr. Arefeh Lotfi in Dubai." },
-      { property: "og:title", content: "Luxury Cosmetic Dentistry Services Dubai | Dr. Arefeh Lotfi" },
-      { property: "og:description", content: "Luxury smile transformations, veneers, digital dentistry and aesthetic smile rehabilitation in Dubai." },
+      { title: "Orthodontics & Preventive Dental Care Dubai | Dr. Amineh Razavian" },
+      { name: "description", content: "Explore orthodontic evaluations, braces, clear aligners, and preventive family dentistry for children, teens, and adults in Dubai — by Dr. Amineh Razavian." },
+      { property: "og:title", content: "Orthodontics & Preventive Dental Care Dubai | Dr. Amineh Razavian" },
+      { property: "og:description", content: "Kids orthodontic evaluation, braces, clear aligners, and preventive family dental care in Dubai. Evidence-based, child-friendly, family-focused." },
       { property: "og:url", content: "/services" },
     ],
     links: [{ rel: "canonical", href: "/services" }],
