@@ -42,7 +42,7 @@ export function SmileDesignSection() {
         />
 
         <div className="relative mt-14 space-y-14">
-          <div className="absolute left-1/2 top-10 bottom-10 hidden lg:block -translate-x-1/2 border-l border-dashed border-border" />
+          <div className="absolute left-1/2 top-10 bottom-10 hidden lg:block -translate-x-1/2 border-l-4 border-dashed border-primary/40" />
           {steps.map((step, index) => {
             const reverseDesktop =
               dir === "ltr"
