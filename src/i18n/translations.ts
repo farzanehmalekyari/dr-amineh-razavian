@@ -249,7 +249,7 @@ export const translations = {
     },
     thankyou: {
       title: "Thank You — Your Request Has Been Received",
-      body: "Dr. Arefeh's team will reach out via WhatsApp shortly to guide you through your next step. Your consultation is private and handled with complete discretion.",
+      body: "Our team will be in touch via WhatsApp or your preferred contact method shortly to confirm your consultation. Your information is handled with complete discretion.",
       whatsapp: "Message on WhatsApp",
       home: "Return Home",
     },
@@ -606,8 +606,8 @@ export const translations = {
     },
     thankyou: {
       title: "شكراً — تم استلام طلبك",
-      body: "سيتواصل فريق د. أرفه معكِ عبر واتساب قريباً لإرشادكِ نحو خطوتكِ التالية. استشارتكِ خاصة وتُعامَل بسرية تامة.",
-      whatsapp: "تواصلي عبر واتساب",
+      body: "سيتواصل فريقنا معك عبر واتساب أو وسيلة التواصل المفضلة لديك قريباً لتأكيد موعد استشارتك. معلوماتك تُعامَل بسرية تامة.",
+      whatsapp: "تواصل عبر واتساب",
       home: "العودة للرئيسية",
     },
     about: {
