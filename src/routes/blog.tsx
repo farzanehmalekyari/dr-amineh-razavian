@@ -14,10 +14,10 @@ import insta2 from "@/assets/insta-2.jpg";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Cosmetic Dentistry Journal Dubai | Smile Design & Veneers" },
-      { name: "description", content: "Insights on smile makeovers, veneers, digital dentistry and aesthetic dental treatments by Dr. Arefeh Lotfi in Dubai." },
-      { property: "og:title", content: "Cosmetic Dentistry Journal | Dr. Arefeh Lotfi" },
-      { property: "og:description", content: "Doctor-guided insights on veneers, smile design, laser dentistry and natural-looking smile transformations." },
+      { title: "Oral Health & Orthodontic Journal Dubai | Dr. Amineh Razavian" },
+      { name: "description", content: "Educational articles on orthodontics, preventive dentistry, kids dental health, airway awareness, and family oral health by Dr. Amineh Razavian in Dubai." },
+      { property: "og:title", content: "Oral Health & Orthodontic Journal | Dr. Amineh Razavian Dubai" },
+      { property: "og:description", content: "Practical guidance on braces, clear aligners, children's dental health, prevention, and family oral care from an orthodontist and family-focused dentist in Dubai." },
       { property: "og:url", content: "/blog" },
     ],
     links: [{ rel: "canonical", href: "/blog" }],
