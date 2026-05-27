@@ -332,26 +332,26 @@ export const translations = {
       finalCta: "Book Smile Consultation",
     },
     smileJourney: {
-  eyebrow: "Smile Design Journey",
-  title: "See How Your Smile Is Designed Before Treatment Begins",
+  eyebrow: "Your Treatment Journey",
+  title: "A Clear, Thoughtful Process",
   subtitle:
-    "A transparent, artistic process designed around your facial harmony and natural expression.",
+    "We begin by understanding growth, oral health, and your concerns before recommending the most appropriate care.",
   steps: [
     {
-      title: "Your Natural Starting Point",
-      desc: "Every smile journey begins with understanding your unique facial harmony.",
+      title: "Initial Consultation",
+      desc: "Understanding concerns, history, and goals.",
     },
     {
-      title: "Digital Smile Analysis",
-      desc: "We study proportions, symmetry and smile dynamics before any treatment begins.",
+      title: "Clinical Assessment",
+      desc: "Reviewing teeth, bite, oral development, and findings.",
     },
     {
-      title: "Precision Smile Planning",
-      desc: "Every refinement is intentionally mapped to create a naturally elegant result.",
+      title: "Personalized Care Plan",
+      desc: "Discussing appropriate options based on individual needs.",
     },
     {
-      title: "Your Smile, Reimagined",
-      desc: "A transformation designed to enhance your confidence without losing your identity.",
+      title: "Ongoing Support",
+      desc: "Monitoring progress and supporting long-term oral health.",
     },
   ],
 },
@@ -688,26 +688,26 @@ export const translations = {
       finalCta: "احجزي استشارة ابتسامة",
     },
     smileJourney: {
-  eyebrow: "رحلة تصميم الابتسامة",
-  title: "شاهدي كيف يتم تصميم ابتسامتكِ قبل بدء العلاج",
+  eyebrow: "رحلة العلاج",
+  title: "خطوات واضحة ومدروسة",
   subtitle:
-    "عملية فنية دقيقة وشفافة مصممة حول تناسق وجهكِ وتعبيركِ الطبيعي.",
+    "نبدأ بفهم النمو وصحة الفم ومخاوفك قبل التوصية بالرعاية الأنسب.",
   steps: [
     {
-      title: "بداية ابتسامتكِ الطبيعية",
-      desc: "كل رحلة ابتسامة تبدأ بفهم ملامح وجهكِ وتناسقكِ الطبيعي.",
+      title: "الاستشارة الأولية",
+      desc: "فهم المخاوف والتاريخ الصحي والأهداف.",
     },
     {
-      title: "تحليل الابتسامة الرقمي",
-      desc: "نحلل التناسق والنسب وحركة الابتسامة قبل بدء أي علاج.",
+      title: "التقييم السريري",
+      desc: "مراجعة الأسنان والإطباق والتطور الفموي والنتائج.",
     },
     {
-      title: "تخطيط الابتسامة بدقة",
-      desc: "كل تعديل يُخطط بعناية لتحقيق نتيجة طبيعية وأنيقة.",
+      title: "خطة علاج شخصية",
+      desc: "مناقشة الخيارات المناسبة حسب الاحتياجات الفردية.",
     },
     {
-      title: "ابتسامتكِ بشكل جديد",
-      desc: "تحول يعزز ثقتكِ مع الحفاظ على هويتكِ الطبيعية.",
+      title: "المتابعة المستمرة",
+      desc: "متابعة التقدم ودعم صحة الفم على المدى الطويل.",
     },
   ],
 },
