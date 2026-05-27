@@ -261,7 +261,7 @@ function Faq() {
 function Insta() {
   const { t } = useLang();
   const imgs = [insta1, insta2, insta3];
-  const links = ['https://www.instagram.com/reel/DYeQn8vM3hb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', 'https://www.instagram.com/reel/DWoys62jHLK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', 'https://www.instagram.com/reel/DV6XpiFDFsz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==']
+  const links = ['https://www.instagram.com/p/DYHbDykso59/', 'https://www.instagram.com/p/DUV3glPD3s8/', 'https://www.instagram.com/p/DSfXolzgUTW/']
   return (
     <section className="py-20 lg:py-28 bg-beige/40">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
